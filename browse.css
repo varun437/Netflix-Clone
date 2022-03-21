@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #000;
+  color: #999;
+}
+
+.head .joker img {
+  width: 100%;
+  height: 99vh;
+  position: relative;
+  background: url("img/joker.jpg") no-repeat center center/cover;
+}
+
+.logo img {
+  position: absolute;
+  height: auto;
+  width: 170px;
+  top: 4%;
+  margin-left: 3%;
+}
+
+.landing {
+  position: absolute;
+  top: 35%;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.title {
+  color: #fff;
+  font-size: 200%;
+}
+
+.para {
+  color: #fff;
+  font-size: 155%;
+}
+
+.button {
+  color: black;
+  background: white;
+  width: 14%;
+  font-size: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sec {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.drama {
+  margin-left: 2%;
+}
+
+.drama .topic {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.drama .photos {
+  display: flex;
+  flex-direction: row;
+}
+
+.drama .photos img {
+  width: 85%;
+}
+
+.drama .topic {
+  font-size: 125%;
+  color: #fff;
+  letter-spacing: 0.75px;
+}
+
+.thriller {
+  margin-left: 2%;
+}
+
+.thriller .topic {
+  margin-top: 3.5%;
+  margin-bottom: 1%;
+}
+
+.thriller .photos {
+  display: flex;
+  flex-direction: row;
+}
+
+.thriller .photos img {
+  width: 85%;
+}
+
+.thriller .topic {
+  font-size: 125%;
+  color: #fff;
+  letter-spacing: 0.75px;
+}
+
+.children {
+  margin-left: 2%;
+}
+
+.children .topic {
+  margin-top: 3.5%;
+  margin-bottom: 1%;
+}
+
+.children .photos {
+  display: flex;
+  flex-direction: row;
+}
+
+.children .photos img {
+  width: 85%;
+}
+
+.children .topic {
+  font-size: 125%;
+  color: #fff;
+  letter-spacing: 0.75px;
+}
+
+.suspense {
+  margin-left: 2%;
+}
+
+.suspense .topic {
+  margin-top: 3.5%;
+  margin-bottom: 1%;
+}
+
+.suspense .photos {
+  display: flex;
+  flex-direction: row;
+}
+
+.suspense .photos img {
+  width: 85%;
+}
+
+.suspense .topic {
+  font-size: 125%;
+  color: #fff;
+  letter-spacing: 0.75px;
+}
+
+.romance {
+  margin-left: 2%;
+}
+
+.romance .topic {
+  margin-top: 3.5%;
+  margin-bottom: 1%;
+}
+
+.romance .photos {
+  display: flex;
+  flex-direction: row;
+}
+
+.romance .photos img {
+  width: 85%;
+}
+
+.romance .topic {
+  font-size: 125%;
+  color: #fff;
+  letter-spacing: 0.75px;
+}
+
+.end {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  margin-left: 8%;
+}
+
+.end p {
+  margin-bottom: 65px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  column-gap: 200px;
+  letter-spacing: 0.8px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
